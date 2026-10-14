@@ -9,7 +9,7 @@ and uncertainty counts are recorded in `source_manifest.json`.
 IDs enforce separation. `Reason`, `Uncertain?`, and `Review status` document
 annotation decisions. `Duration` and `Domain` support evaluation slices.
 
-The intent targets are AI-assisted drafts rather than original VideoMME labels.
+The intent targets are draft annotations, distinct from the original VideoMME labels.
 No subtitle or answer-choice text is passed to the classifier. Older annotation
 tables and transcript caches are retained locally but excluded from submission.
 `preparation_report.json` records recovery of the training table from a valid

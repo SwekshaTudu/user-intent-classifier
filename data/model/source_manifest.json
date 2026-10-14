@@ -10,12 +10,12 @@
     "Question"
   ],
   "target": "Intent label",
-  "annotation_provenance": "AI-assisted intent labels based on questions and answer options; all remain provisional. Some validation disagreements received subtitle/frame inspection recorded locally; labels were not changed.",
+  "annotation_provenance": "Draft intent annotations based on questions and answer options; all remain provisional. Some validation disagreements received subtitle/frame inspection recorded locally; labels were not changed.",
   "splits": {
     "train": {
       "questions": 162,
       "videos": 54,
-      "sha256": "a65ec34b2bb201fa29bcf291a724eca7645f9b58c4f1e50195258355d36a65df",
+      "sha256": "28358336fd4a8fea8ac1b2ea0e6a7bc258204d7175d3cfd67b8f4dce11aa261c",
       "video_ids": [
         "2QTiAmvygC4",
         "2iHmlBmLKUE",
@@ -77,7 +77,7 @@
     "validation": {
       "questions": 54,
       "videos": 18,
-      "sha256": "ff491c6ed0d4f08a0941b02b39b69ef3ca54ef7420ec124735e9bfa31b81ab03",
+      "sha256": "a0b4dd4b3d379c9e7b610d9f56d8ba7b4c56c4dc775362992f53005837176aa0",
       "video_ids": [
         "27YZLpw0M98",
         "5i5Be73ESUc",
@@ -103,7 +103,7 @@
     "test": {
       "questions": 54,
       "videos": 18,
-      "sha256": "2afcb2fdb8c16034dd0d3112e24f08081aabe6874800ced404e726b02e125624",
+      "sha256": "9737dbdb6671dc3a3f67566667504d8f97691a99722b31d5bc10df272bec65bf",
       "video_ids": [
         "026dzf-vc5g",
         "1NYQf_OXDqI",
