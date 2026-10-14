@@ -1,0 +1,55 @@
+﻿Question ID,Video ID,Question,Reference draft label,Model prediction,Majority prediction,Keyword prediction,Model correct,Uncertain?
+204-1,pcm_E7UoKLo,"According to the video, what country does the shortest woman in the world come from?",Clip,Clip,Clip,Clip,True,Yes
+204-2,pcm_E7UoKLo,"According to the opening scene of the video, what color tie is the man wearing with his suit?",Frame,Frame,Clip,Frame,True,No
+204-3,pcm_E7UoKLo,"Based on the video, which statement is true regarding the height comparison of the world's shortest man and shortest woman?",Frame,Clip,Clip,Clip,False,Yes
+212-1,026dzf-vc5g,Which skill is not included in the little girl's performance?,Clip,Whole-video,Clip,Whole-video,False,Yes
+212-2,026dzf-vc5g,"According to the little girl's expression, how does she feel after finishing her performance?",Frame,Clip,Clip,Clip,False,Yes
+212-3,026dzf-vc5g,What is the color of the little girl wearing shorts?,Frame,Frame,Clip,Frame,True,No
+222-1,FlcVBKTSjRs,How many spoons are used to make the holder in the video?,Clip,Whole-video,Clip,Clip,False,Yes
+222-2,FlcVBKTSjRs,Which object does the holder made in this video visually resemble?,Frame,Whole-video,Clip,Clip,False,No
+222-3,FlcVBKTSjRs,What is the primary focus or main topic of this video?,Whole-video,Whole-video,Clip,Whole-video,True,No
+244-1,9v9NHoTXc-Q,What color are the shoes worn by the boy with the white hat?,Frame,Frame,Clip,Frame,True,No
+244-2,9v9NHoTXc-Q,Which of the following objects is the pink satin high-heeled shoe placed on in the video?,Frame,Whole-video,Clip,Clip,False,No
+244-3,9v9NHoTXc-Q,What is this video about?,Whole-video,Whole-video,Clip,Whole-video,True,No
+246-1,frX8GujpmkI,What is the emotion of the video?,Whole-video,Whole-video,Clip,Clip,True,Yes
+246-2,frX8GujpmkI,What is the woman wearing with a light green striped handbag in the video?,Frame,Frame,Clip,Frame,True,No
+246-3,frX8GujpmkI,"At the end of the video, how many people are there on the staircase along a coastal hillside?",Frame,Clip,Clip,Clip,False,No
+266-1,2gFxZmb0dMo,"What is the most likely role of the blonde woman in the video, clad in a blue T-shirt and black shorts?",Clip,Whole-video,Clip,Clip,False,Yes
+266-2,2gFxZmb0dMo,What are the people in the video doing in the lake?,Clip,Frame,Clip,Clip,False,Yes
+266-3,2gFxZmb0dMo,Which hair color does the little boy have while playing the guitar in the video?,Frame,Frame,Clip,Frame,True,No
+371-1,7fnVcXfPe5c,"Which option correctly indicates the location of the ""psychological tip"" written in white on the board when illustrating the third suggestion in the video?",Frame,Frame,Clip,Frame,True,No
+371-2,7fnVcXfPe5c,What does the visualization in the video most closely resemble?,Frame,Whole-video,Clip,Clip,False,No
+371-3,7fnVcXfPe5c,What is the purpose of drawing a bifurcated tree when introducing the threading?,Clip,Clip,Clip,Clip,True,No
+385-1,bepwr1-CNRU,Which of the following is correct for ranking Tesla models from shortest to longest 0-60 mph acceleration time based on the video?,Whole-video,Whole-video,Clip,Clip,True,Yes
+385-2,bepwr1-CNRU,What is this video about?,Whole-video,Whole-video,Clip,Whole-video,True,No
+385-3,bepwr1-CNRU,What is the driving range of Tesla Model X Long Range version on a single charge?,Clip,Whole-video,Clip,Clip,False,Yes
+464-1,ZQIZx5Oqw88,"In the introductions of the athletes at the beginning of the video, what is the sequence of the French athlete, the American athlete, and the South African athlete?",Clip,Clip,Clip,Clip,True,No
+464-2,ZQIZx5Oqw88,Which team in the video reached the finish line first?,Clip,Clip,Clip,Clip,True,Yes
+464-3,ZQIZx5Oqw88,In which baton handover process in the video did a player fall?,Clip,Clip,Clip,Clip,True,No
+494-1,a8IGDMrohnY,What does the little magician wear?,Frame,Frame,Clip,Frame,True,No
+494-2,a8IGDMrohnY,What card does the male judge pick?,Frame,Clip,Clip,Clip,False,No
+494-3,a8IGDMrohnY,What is the magic the magician playing?,Clip,Whole-video,Clip,Clip,False,No
+547-1,x-ccfWcbht4,In which year did the main character in the video win his second Emmy?,Clip,Clip,Clip,Clip,True,Yes
+547-2,x-ccfWcbht4,How old is the woman in the video in 2019?,Clip,Frame,Clip,Clip,False,Yes
+547-3,x-ccfWcbht4,What is the correct chronological order in which the following looks appeared?,Whole-video,Whole-video,Clip,Whole-video,True,No
+561-1,A30IuIjQYYg,Which country is recorded by the video?,Whole-video,Whole-video,Clip,Clip,True,Yes
+561-2,A30IuIjQYYg,What is the correct order in which the activities appear in the video?,Whole-video,Whole-video,Clip,Clip,True,No
+561-3,A30IuIjQYYg,How many times does underwater photography appear in the video?,Whole-video,Whole-video,Clip,Clip,True,No
+621-1,5LU_XY0z2ZY,What is the theme of the video?,Whole-video,Whole-video,Clip,Clip,True,No
+621-2,5LU_XY0z2ZY,What could be the key to truly combating and even preventing the disease that the video mainly talks about?,Clip,Whole-video,Clip,Clip,False,Yes
+621-3,5LU_XY0z2ZY,What could we do in our daily life to help prevent the disease that the video mainly talks about?,Clip,Whole-video,Clip,Clip,False,Yes
+653-1,YtAL8y2lACs,How many people does the Ross Ice Shelf team consist of?,Clip,Whole-video,Clip,Clip,False,Yes
+653-2,YtAL8y2lACs,Why was the team so cautious upon the helicopter's landing?,Clip,Clip,Clip,Clip,True,No
+653-3,YtAL8y2lACs,"In line with the video evidence, how do the fractures form?",Clip,Clip,Clip,Clip,True,No
+700-1,1NYQf_OXDqI,"Based on the video, what is the relationship of Tom and Jerry when they meet the witch?",Clip,Clip,Clip,Clip,True,No
+700-2,1NYQf_OXDqI,How do Tom and Jerry share a similarity as depicted in the video?,Whole-video,Clip,Clip,Clip,False,Yes
+700-3,1NYQf_OXDqI,"In line with the video evidence, what is the weakness of the villain?",Clip,Clip,Clip,Clip,True,No
+747-1,4qYqPmIO0v0,What happened to the team on the counterattack after Sabonis' first steal?,Clip,Clip,Clip,Clip,True,No
+747-2,4qYqPmIO0v0,How many athletic goals did LIT score from the last technical statistic on shooting percentage before halftime to the end of the half?,Clip,Clip,Clip,Frame,True,No
+747-3,4qYqPmIO0v0,How many timeouts does the HUN actively consume throughout the game?,Whole-video,Whole-video,Clip,Whole-video,True,No
+790-1,RgJVug6iNs8,What is the central theme of the performance?,Whole-video,Whole-video,Clip,Whole-video,True,No
+790-2,RgJVug6iNs8,How does the story of the wolf conclude in the video?,Clip,Clip,Clip,Clip,True,No
+790-3,RgJVug6iNs8,What can be inferred about the storyline of the video?,Whole-video,Frame,Clip,Clip,False,No
+840-1,y9Fne3oUwX4,Which food did the team that chose bananas also select from the following options?,Clip,Frame,Clip,Clip,False,Yes
+840-2,y9Fne3oUwX4,What letter of the alphabet does the two teams choose to eat differently when it comes to food?,Whole-video,Clip,Clip,Clip,False,Yes
+840-3,y9Fne3oUwX4,"As one team enjoys pizza, how many tasks has the other team completed?",Clip,Whole-video,Clip,Clip,False,Yes

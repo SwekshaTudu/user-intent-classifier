@@ -5,3 +5,26 @@ venv/
 .env
 node_modules/
 .DS_Store
+*.before_subtitles.bak
+.verification/
+artifacts/reproduction/
+models/
+artifacts/encoder_reproduction/
+
+# Canonical submission data; retain duplicate annotation work locally.
+/annotation-source.tmp.jsonl
+/data/*
+!/data/model/
+
+# Keep measured results and models; exclude local inspection images and drafts.
+/artifacts/*
+!/artifacts/intent_model.joblib
+!/artifacts/training_report.json
+!/artifacts/pretrained_encoder/
+!/artifacts/final_evaluation/
+
+# Optional inspection scripts depend on the locally retained raw transcripts.
+/src/review_validation_evidence.py
+/src/extract_validation_frames.py
+/src/save_visual_review.py
+/requirements-review.txt

@@ -1,0 +1,12 @@
+{
+  "frozen_at_utc": "2026-10-14T15:35:23.048410+00:00",
+  "fingerprints": {
+    "model_sha256": "8b2ee834ab62b2cf9481b18fb655da8bc4a67a7eb5a340ee5a8d20c76a2db2f4",
+    "classifier_source_sha256": "2fae68bd6341d6c6ad692cac8998172cb5403b68b090285e6ac32d2dc394c7f8",
+    "evaluator_source_sha256": "e537bc9609e8e95fc5715a2ce849e1eef2d1e93ba9eead089c11191db0b89d46",
+    "train_sha256": "a65ec34b2bb201fa29bcf291a724eca7645f9b58c4f1e50195258355d36a65df",
+    "validation_sha256": "ff491c6ed0d4f08a0941b02b39b69ef3ca54ef7420ec124735e9bfa31b81ab03",
+    "test_sha256": "c2ce84c8ccfc17c548641f15e0904b20a9bd21bf7a3f575d773e7e8e34073628",
+    "selected_model": "word_signals_logistic_c1"
+  }
+}

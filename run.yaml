@@ -1,19 +1,14 @@
-# Fill this in before you submit -- our evaluator runs these commands
-# EXACTLY as written, in this order, from a fresh checkout of your fork.
-# Keep every command non-interactive (no prompts) and idempotent.
-
 setup_commands:
-  - "pip install -r requirements.txt"
-  # - add every other setup step here, in order (env vars, downloads, etc.)
+  - "python -m pip install -r requirements-encoder.txt"
+  - "python src/encoder_classifier.py download"
 
 run_commands:
-  - "python src/main.py --help"
-  # - the real command(s) that actually run your solution
+  - "python src/encoder_classifier.py train --output-dir artifacts/encoder_reproduction"
+  - 'python src/encoder_classifier.py predict --model artifacts/encoder_reproduction/encoder_head.joblib --query "What colour is the car?"'
+  - "python src/main.py train --output-dir artifacts/reproduction"
+  - "python src/main.py evaluate --model artifacts/reproduction/intent_model.joblib --training-report artifacts/reproduction/training_report.json --test data/model/test.csv --output-dir artifacts/reproduction/evaluation"
 
-test_commands: []
-  # optional -- commands that run your own tests/checks, if you have any
+test_commands:
+  - 'python -m unittest discover -s src -p "test_*.py"'
 
-notes: ""
-  # anything we should know before running this (e.g. "needs a GPU",
-  # "takes about 10 minutes", "expects a sample dataset already present
-  # under data/, see docs/ for where to get it")
+notes: "Python 3.12+. CPU only. Setup requires internet for dependencies and about 24 MB of pinned MiniLM assets. Prediction is offline. Canonical CSVs are included under data/model. The encoder uses train/validation only; its score is not an independent test result. The earlier TF-IDF test evaluation is reproduced separately. Labels are provisional AI annotations."

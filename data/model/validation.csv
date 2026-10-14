@@ -1,0 +1,70 @@
+﻿Question ID,Video ID,Question,Intent label,Reason,Uncertain?,Review status,Duration,Domain
+073-1,7iXM5aq53Ts,"As depicted in the video, which smart phone is advertised on the screen of the laptop?",Frame,Read the advertised phone from the laptop screen.,No,AI draft - needs human review,short,Knowledge
+073-2,7iXM5aq53Ts,What is the icon of Keyborad Cleaner app shown in the video?,Frame,One clear app-icon image supports the visual description.,No,AI draft - needs human review,short,Knowledge
+073-3,7iXM5aq53Ts,What does the man use to clean the keyboard in this video?,Frame,A close-up may identify the cleaning implement; the cleaning action may be needed to distinguish it.,Yes,AI draft - needs human review,short,Knowledge
+127-1,YlAefotZNAc,What clothes were the boys being interviewed wearing?,Frame,A clear interview image shows the boys' clothing.,No,AI draft - needs human review,short,Film & Television
+127-2,YlAefotZNAc,What is the mood of the people interviewed in the video who experienced the blizzard?,Clip,Interview speech and expressions support mood; multiple interviewees may require several segments.,Yes,AI draft - needs human review,short,Film & Television
+127-3,YlAefotZNAc,"According to the video, what is the reason why the interviewed man frequently observes snow?",Clip,Retrieve the man's explanation of why he often sees snow.,No,AI draft - needs human review,short,Film & Television
+167-1,913JhnW28U4,From which country does the first-place athlete in the video originate?,Frame,The winner's flag or country label may suffice; identifying the winner may require the result segment.,Yes,AI draft - needs human review,short,Sports Competition
+167-2,913JhnW28U4,What swimming stroke does the athlete in the video use?,Clip,A short swimming sequence distinguishes the stroke.,No,AI draft - needs human review,short,Sports Competition
+167-3,913JhnW28U4,What is the time difference in seconds between the second and third place in the competition results shown at the end of the video?,Frame,Read the final results graphic and subtract the displayed times.,No,AI draft - needs human review,short,Sports Competition
+176-1,wGfRSojH0PE,What is the score after this game?,Frame,Read the final score from an ending scoreboard image.,No,AI draft - needs human review,short,Sports Competition
+176-2,wGfRSojH0PE,What is the man in black doing while standing beside the field and in front of the Dove board?,Frame,The person's equipment or posture may reveal the role; motion may be needed if the role is ambiguous.,Yes,AI draft - needs human review,short,Sports Competition
+176-3,wGfRSojH0PE,How did the white team win this game?,Clip,Observe the decisive scoring action and its outcome.,No,AI draft - needs human review,short,Sports Competition
+259-1,RU8IfXp7LbE,What time does the man in the video get up?,Frame,A wake-up clock image may give the time; narration may be needed if no clock is visible.,Yes,AI draft - needs human review,short,Life Record
+259-2,RU8IfXp7LbE,Which activity is not shown in the video?,Whole-video,Verify the absence of an activity across the routine.,No,AI draft - needs human review,short,Life Record
+259-3,RU8IfXp7LbE,What does the man shown in the video do after swimming?,Clip,Retrieve the transition immediately after swimming.,No,AI draft - needs human review,short,Life Record
+268-1,27YZLpw0M98,What camera does the protagonist in the video use to shoot?,Frame,A clear camera or logo image may identify the make; spoken identification may be needed.,Yes,AI draft - needs human review,short,Life Record
+268-2,27YZLpw0M98,What color clothing is the protagonist wearing while carrying a tripod over his shoulder?,Frame,One image of the tripod-carrying scene shows clothing colour.,No,AI draft - needs human review,short,Life Record
+268-3,27YZLpw0M98,Which of the following topics is the most likely focus of this video?,Whole-video,The likely focus requires an overview of the video.,No,AI draft - needs human review,short,Life Record
+446-1,ACvLYz9nHvg,How many consecutive hits did player #39 in the video have in his first start?,Clip,Count consecutive scores during the specified player's initial stint; the interval may cover much of the game.,Yes,AI draft - needs human review,medium,Sports Competition
+446-2,ACvLYz9nHvg,What country's practice game is this?,Clip,Country needs event context or commentary; signage may answer it in one image.,Yes,AI draft - needs human review,medium,Sports Competition
+446-3,ACvLYz9nHvg,What are most of the technical moves completed by the players in the video?,Whole-video,Determining the most frequent move requires comparing plays across the video.,No,AI draft - needs human review,medium,Sports Competition
+476-1,DfZIv2FKWj4,What is the score at the half time?,Frame,Read the halftime scoreboard.,No,AI draft - needs human review,medium,Sports Competition
+476-2,DfZIv2FKWj4,Which team gets more scores at the second half time?,Clip,Compare second-half scoring or halftime and final scoreboards; this may need separated evidence.,Yes,AI draft - needs human review,medium,Sports Competition
+476-3,DfZIv2FKWj4,What sport are the two teams of athletes playing?,Frame,A clear field and equipment image may identify the sport; a short action sequence may help.,Yes,AI draft - needs human review,medium,Sports Competition
+480-1,awHc8IySU-I,"Among the games, which winner has the quickest finishing time?",Whole-video,Compare finishing times across the featured games.,No,AI draft - needs human review,medium,Sports Competition
+480-2,awHc8IySU-I,How many athletes successfully finished the game in 2010?,Clip,Inspect the specified 2010 event to count successful finishers; one result graphic may suffice.,Yes,AI draft - needs human review,medium,Sports Competition
+480-3,awHc8IySU-I,How are the five moments of champion organized in this video?,Whole-video,Determine how the five championship segments are ordered across the video.,No,AI draft - needs human review,medium,Sports Competition
+515-1,a7jZszvFpTY,"According to this video, in which order do the following events happened?
+(a) Forming a human pole.
+(b) Jumping through white hoops.
+(c) Forming a human cross.",Whole-video,Compare the order of the listed performance segments; they may all lie within one short routine.,Yes,AI draft - needs human review,medium,Artistic Performance
+515-2,a7jZszvFpTY,How do the performers end their performance?,Clip,Observe the ending performance sequence.,No,AI draft - needs human review,medium,Artistic Performance
+515-3,a7jZszvFpTY,What do the performers wear?,Frame,One clear image shows the performers' accessories.,No,AI draft - needs human review,medium,Artistic Performance
+535-1,ooqdg9Wr-mo,What food in the video is worth $750?,Clip,Retrieve the food-price association; a visible price caption might suffice.,Yes,AI draft - needs human review,medium,Life Record
+535-2,ooqdg9Wr-mo,Which of the following food in the video is cheapest?,Whole-video,Compare food prices across segments; a complete price summary could suffice.,Yes,AI draft - needs human review,medium,Life Record
+535-3,ooqdg9Wr-mo,"Inferring from the video, why does the man in the video choose the latter between caviar and roasted butter beans?",Clip,Retrieve the choice and its surrounding explanation.,No,AI draft - needs human review,medium,Life Record
+540-1,6DbsOZU8mBM,"Extrapolating from the video, what does the brand OSMO in the video sell?",Clip,Retrieve the brand introduction or product explanation; clear packaging may suffice.,Yes,AI draft - needs human review,medium,Life Record
+540-2,6DbsOZU8mBM,What is the third baked food in the video?,Clip,"Locate the third baking step; absent numbering, preceding steps must also be checked.",Yes,AI draft - needs human review,medium,Life Record
+540-3,6DbsOZU8mBM,What treat did the little hamster savor at the end of the video?,Frame,A clear ending feeding image may identify the treat; preparation context may be necessary.,Yes,AI draft - needs human review,medium,Life Record
+615-1,LCfBYE97rFk,What does Paula Scher often do when she sits down at her desk as depicted in the video?,Clip,Retrieve the desk-routine segment and what she says or does there.,No,AI draft - needs human review,long,Knowledge
+615-2,LCfBYE97rFk,"According to what is shown in the video, what is not true about the design for local people after the disaster?",Clip,Retrieve the post-disaster design discussion; the generic statements may need multiple parts of that discussion.,Yes,AI draft - needs human review,long,Knowledge
+615-3,LCfBYE97rFk,"In line with the video evidence, which of the following features can not describe Paula Scher?",Whole-video,Character traits require evidence across her actions and statements.,No,AI draft - needs human review,long,Knowledge
+775-1,Xjf5N9S3jAA,"According to what is shown in the video, how many match points and set points does the winner have before the last rally to win this match?",Clip,Count match and set point opportunities before the final rally.,No,AI draft - needs human review,long,Sports Competition
+775-2,Xjf5N9S3jAA,What is the main focus of the video?,Whole-video,The main focus and outcome require a video-level summary.,No,AI draft - needs human review,long,Sports Competition
+775-3,Xjf5N9S3jAA,What does the volunteer squatting next to the middle line do after each rally in the video?,Clip,Observe the volunteer's actions between rallies.,No,AI draft - needs human review,long,Sports Competition
+799-1,D0ZMmQjKn2Q,Why does the magician fail in the first episode?,Clip,Retrieve the failure and preceding setup in the first episode.,No,AI draft - needs human review,long,Artistic Performance
+799-2,D0ZMmQjKn2Q,"In which order do the following events happen in this video?
+(a) Mr. Bean falls in love with the beautiful singer Roxy and has a wish to get an autograph from her. His attempts are mostly foiled by the bodyguard until he manages to get a kiss mark from Roxy using her handkerchief and Bean is happy.
+(b) Whilst digging for treasure, Mr. Bean builds his own metal detector and goes to hunt for treasure but fails. When he manages to get the treasure and bring it to his flat.
+(c) Mr. Bean and Irma are off for a day at the seaside, where his trunk gets accidentally swapped with that of a stage magician.
+(d) Bean attends a hypnotism show. He unwittingly volunteers to be hypnotised; when the hypnotist makes him think he's a dog, he runs away and then back at home chases Scrapper around the garden and the house.",Whole-video,Order distinct episodes across the compilation.,No,AI draft - needs human review,long,Artistic Performance
+799-3,D0ZMmQjKn2Q,How does Mr. Bean get off the plane when he finds the island is right down?,Clip,Retrieve the plane-exit sequence and its setup.,No,AI draft - needs human review,long,Artistic Performance
+800-1,Cb91B0wZYLE,"What is the sequence in which the following magic tricks are performed in this video?
+(a) Joker inside the black Jacks sandwich is mysteriously replaced with the randomly chosen card.
+(b) The positions of Aces and random cards are swapped.
+(c) After a full circle of mixing up, the piles go back to where they started.
+(d) The order of cards is recovered from chaos.",Whole-video,Compare the sequence of separate magic tricks across the video.,No,AI draft - needs human review,long,Artistic Performance
+800-2,Cb91B0wZYLE,What is the main focus of this video?,Whole-video,The main focus requires an overview of the performance collection.,No,AI draft - needs human review,long,Artistic Performance
+800-3,Cb91B0wZYLE,"According to the video, which magic trick has a tutorial?",Clip,Retrieve the tutorial introduction or tutorial segment; establishing which trick it teaches may need context.,Yes,AI draft - needs human review,long,Artistic Performance
+844-1,K7YNoRZMv2k,"In what chronological order did the following events take place?
+(a) The Prada brand was almost ceasing to exist.
+(b) The launch of the label Miu Miu.
+(c) Prada gained connections to royal families.
+(d) The arrival of Miuccia Prada.",Whole-video,Compare the described historical events across the account; a single narrated timeline could suffice.,Yes,AI draft - needs human review,long,Life Record
+844-2,K7YNoRZMv2k,What would happen if the daughter didn't assume control of Prada?,Clip,Retrieve the business-crisis explanation supporting the hypothetical outcome.,No,AI draft - needs human review,long,Life Record
+844-3,K7YNoRZMv2k,Which item is not being displayed on the product showcase interface?,Frame,A complete product showcase image may establish the absent item; scrolling could require a clip.,Yes,AI draft - needs human review,long,Life Record
+858-1,5i5Be73ESUc,Which of the following things was not discussed by the heroine while driving to work?,Clip,Check the bounded driving-to-work discussion for the omitted topic.,No,AI draft - needs human review,long,Life Record
+858-2,5i5Be73ESUc,What time does the heroine in the video get home from get off work?,Clip,Retrieve the homecoming segment and time cues; a timestamp image may suffice.,Yes,AI draft - needs human review,long,Life Record
+858-3,5i5Be73ESUc,Why did the heroine in the video go shopping at Trader joe's?,Clip,Retrieve the shopping explanation given by the protagonist.,No,AI draft - needs human review,long,Life Record

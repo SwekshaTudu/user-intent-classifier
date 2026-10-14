@@ -1,0 +1,399 @@
+{
+  "summary": {
+    "selected_model": {
+      "accuracy": 0.5925925925925926,
+      "macro_f1": 0.5887645687645687
+    },
+    "majority_baseline": {
+      "accuracy": 0.46296296296296297,
+      "macro_f1": 0.2109704641350211
+    },
+    "keyword_baseline": {
+      "accuracy": 0.6666666666666666,
+      "macro_f1": 0.6335227272727272
+    }
+  },
+  "selected_model": "word_signals_logistic_c1",
+  "input_fields": [
+    "Question"
+  ],
+  "test": {
+    "questions": 54,
+    "videos": 18,
+    "labels": {
+      "Clip": 25,
+      "Frame": 14,
+      "Whole-video": 15
+    },
+    "review_status": {
+      "AI draft - needs human review": 54
+    },
+    "uncertain": 21
+  },
+  "comparisons": {
+    "selected_model": {
+      "questions": 54,
+      "accuracy": 0.5925925925925926,
+      "macro_f1": 0.5887645687645687,
+      "per_class": {
+        "Frame": {
+          "precision": 0.6363636363636364,
+          "recall": 0.5,
+          "f1-score": 0.56,
+          "support": 14.0
+        },
+        "Clip": {
+          "precision": 0.6842105263157895,
+          "recall": 0.52,
+          "f1-score": 0.5909090909090909,
+          "support": 25.0
+        },
+        "Whole-video": {
+          "precision": 0.5,
+          "recall": 0.8,
+          "f1-score": 0.6153846153846154,
+          "support": 15.0
+        },
+        "accuracy": 0.5925925925925926,
+        "macro avg": {
+          "precision": 0.6068580542264753,
+          "recall": 0.6066666666666667,
+          "f1-score": 0.5887645687645687,
+          "support": 54.0
+        },
+        "weighted avg": {
+          "precision": 0.6206361864256601,
+          "recall": 0.5925925925925926,
+          "f1-score": 0.5896943796943797,
+          "support": 54.0
+        }
+      },
+      "confusion_matrix": {
+        "labels": [
+          "Frame",
+          "Clip",
+          "Whole-video"
+        ],
+        "rows_actual_columns_predicted": [
+          [
+            7,
+            4,
+            3
+          ],
+          [
+            3,
+            13,
+            9
+          ],
+          [
+            1,
+            2,
+            12
+          ]
+        ]
+      },
+      "clear_draft_subset": {
+        "questions": 33,
+        "accuracy": 0.7878787878787878,
+        "note": "These are clear AI drafts, not independently reviewed ground truth."
+      },
+      "duration": {
+        "long": {
+          "questions": 18,
+          "accuracy": 0.5555555555555556
+        },
+        "medium": {
+          "questions": 18,
+          "accuracy": 0.7222222222222222
+        },
+        "short": {
+          "questions": 18,
+          "accuracy": 0.5
+        }
+      },
+      "domain": {
+        "Artistic Performance": {
+          "questions": 12,
+          "accuracy": 0.5
+        },
+        "Film & Television": {
+          "questions": 3,
+          "accuracy": 0.6666666666666666
+        },
+        "Knowledge": {
+          "questions": 12,
+          "accuracy": 0.5833333333333334
+        },
+        "Life Record": {
+          "questions": 21,
+          "accuracy": 0.5238095238095238
+        },
+        "Sports Competition": {
+          "questions": 6,
+          "accuracy": 1.0
+        }
+      },
+      "accuracy_video_bootstrap_95_ci": {
+        "lower": 0.46296296296296297,
+        "upper": 0.7037037037037037,
+        "confidence": 0.95,
+        "bootstrap_draws": 2000,
+        "unit": "video",
+        "note": "Descriptive uncertainty from video resampling; excludes annotation error and dataset shift."
+      }
+    },
+    "majority_baseline": {
+      "questions": 54,
+      "accuracy": 0.46296296296296297,
+      "macro_f1": 0.2109704641350211,
+      "per_class": {
+        "Frame": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 14.0
+        },
+        "Clip": {
+          "precision": 0.46296296296296297,
+          "recall": 1.0,
+          "f1-score": 0.6329113924050633,
+          "support": 25.0
+        },
+        "Whole-video": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 15.0
+        },
+        "accuracy": 0.46296296296296297,
+        "macro avg": {
+          "precision": 0.15432098765432098,
+          "recall": 0.3333333333333333,
+          "f1-score": 0.2109704641350211,
+          "support": 54.0
+        },
+        "weighted avg": {
+          "precision": 0.21433470507544583,
+          "recall": 0.46296296296296297,
+          "f1-score": 0.29301453352086265,
+          "support": 54.0
+        }
+      },
+      "confusion_matrix": {
+        "labels": [
+          "Frame",
+          "Clip",
+          "Whole-video"
+        ],
+        "rows_actual_columns_predicted": [
+          [
+            0,
+            14,
+            0
+          ],
+          [
+            0,
+            25,
+            0
+          ],
+          [
+            0,
+            15,
+            0
+          ]
+        ]
+      },
+      "clear_draft_subset": {
+        "questions": 33,
+        "accuracy": 0.3333333333333333,
+        "note": "These are clear AI drafts, not independently reviewed ground truth."
+      },
+      "duration": {
+        "long": {
+          "questions": 18,
+          "accuracy": 0.6666666666666666
+        },
+        "medium": {
+          "questions": 18,
+          "accuracy": 0.4444444444444444
+        },
+        "short": {
+          "questions": 18,
+          "accuracy": 0.2777777777777778
+        }
+      },
+      "domain": {
+        "Artistic Performance": {
+          "questions": 12,
+          "accuracy": 0.3333333333333333
+        },
+        "Film & Television": {
+          "questions": 3,
+          "accuracy": 0.6666666666666666
+        },
+        "Knowledge": {
+          "questions": 12,
+          "accuracy": 0.5833333333333334
+        },
+        "Life Record": {
+          "questions": 21,
+          "accuracy": 0.3333333333333333
+        },
+        "Sports Competition": {
+          "questions": 6,
+          "accuracy": 0.8333333333333334
+        }
+      },
+      "accuracy_video_bootstrap_95_ci": {
+        "lower": 0.33287037037037037,
+        "upper": 0.5925925925925926,
+        "confidence": 0.95,
+        "bootstrap_draws": 2000,
+        "unit": "video",
+        "note": "Descriptive uncertainty from video resampling; excludes annotation error and dataset shift."
+      }
+    },
+    "keyword_baseline": {
+      "questions": 54,
+      "accuracy": 0.6666666666666666,
+      "macro_f1": 0.6335227272727272,
+      "per_class": {
+        "Frame": {
+          "precision": 0.875,
+          "recall": 0.5,
+          "f1-score": 0.6363636363636364,
+          "support": 14.0
+        },
+        "Clip": {
+          "precision": 0.5897435897435898,
+          "recall": 0.92,
+          "f1-score": 0.71875,
+          "support": 25.0
+        },
+        "Whole-video": {
+          "precision": 0.8571428571428571,
+          "recall": 0.4,
+          "f1-score": 0.5454545454545454,
+          "support": 15.0
+        },
+        "accuracy": 0.6666666666666666,
+        "macro avg": {
+          "precision": 0.773962148962149,
+          "recall": 0.6066666666666666,
+          "f1-score": 0.6335227272727272,
+          "support": 54.0
+        },
+        "weighted avg": {
+          "precision": 0.7379765296431963,
+          "recall": 0.6666666666666666,
+          "f1-score": 0.649252946127946,
+          "support": 54.0
+        }
+      },
+      "confusion_matrix": {
+        "labels": [
+          "Frame",
+          "Clip",
+          "Whole-video"
+        ],
+        "rows_actual_columns_predicted": [
+          [
+            7,
+            7,
+            0
+          ],
+          [
+            1,
+            23,
+            1
+          ],
+          [
+            0,
+            9,
+            6
+          ]
+        ]
+      },
+      "clear_draft_subset": {
+        "questions": 33,
+        "accuracy": 0.696969696969697,
+        "note": "These are clear AI drafts, not independently reviewed ground truth."
+      },
+      "duration": {
+        "long": {
+          "questions": 18,
+          "accuracy": 0.7222222222222222
+        },
+        "medium": {
+          "questions": 18,
+          "accuracy": 0.6666666666666666
+        },
+        "short": {
+          "questions": 18,
+          "accuracy": 0.6111111111111112
+        }
+      },
+      "domain": {
+        "Artistic Performance": {
+          "questions": 12,
+          "accuracy": 0.5833333333333334
+        },
+        "Film & Television": {
+          "questions": 3,
+          "accuracy": 0.6666666666666666
+        },
+        "Knowledge": {
+          "questions": 12,
+          "accuracy": 0.75
+        },
+        "Life Record": {
+          "questions": 21,
+          "accuracy": 0.6190476190476191
+        },
+        "Sports Competition": {
+          "questions": 6,
+          "accuracy": 0.8333333333333334
+        }
+      },
+      "accuracy_video_bootstrap_95_ci": {
+        "lower": 0.5370370370370371,
+        "upper": 0.7777777777777778,
+        "confidence": 0.95,
+        "bootstrap_draws": 2000,
+        "unit": "video",
+        "note": "Descriptive uncertainty from video resampling; excludes annotation error and dataset shift."
+      }
+    }
+  },
+  "model_bytes": 34247,
+  "latency": {
+    "p50_ms": 1.8215000163763762,
+    "p95_ms": 2.685194974765181,
+    "measurements": 162,
+    "scope": "Warm single-query inference; excludes startup and model loading."
+  },
+  "environment": {
+    "python": "3.12.14",
+    "scikit_learn": "1.8.0",
+    "numpy": "2.5.4",
+    "platform": "Windows-11-10.0.26200-SP0"
+  },
+  "fingerprints": {
+    "model_sha256": "8b2ee834ab62b2cf9481b18fb655da8bc4a67a7eb5a340ee5a8d20c76a2db2f4",
+    "classifier_source_sha256": "2fae68bd6341d6c6ad692cac8998172cb5403b68b090285e6ac32d2dc394c7f8",
+    "evaluator_source_sha256": "e537bc9609e8e95fc5715a2ce849e1eef2d1e93ba9eead089c11191db0b89d46",
+    "train_sha256": "a65ec34b2bb201fa29bcf291a724eca7645f9b58c4f1e50195258355d36a65df",
+    "validation_sha256": "ff491c6ed0d4f08a0941b02b39b69ef3ca54ef7420ec124735e9bfa31b81ab03",
+    "test_sha256": "c2ce84c8ccfc17c548641f15e0904b20a9bd21bf7a3f575d773e7e8e34073628",
+    "selected_model": "word_signals_logistic_c1"
+  },
+  "shared_question_wordings_with_development": [],
+  "annotation_warning": "All test labels are AI-assisted drafts; scores measure agreement with those labels, not independently established routing or answer correctness.",
+  "protocol": "Model and feature code frozen before scoring. Baselines fixed during development. No fitting or model selection on test. Repeated unchanged runs return saved results.",
+  "limitations": [
+    "Small holdout: 18 videos and 54 questions.",
+    "Video-MME is multiple-choice video QA, not a production query distribution.",
+    "Some draft labels depend on answer options or assumptions about visual evidence, while model input is question text alone.",
+    "End-to-end retrieval and answer accuracy are not measured."
+  ]
+}

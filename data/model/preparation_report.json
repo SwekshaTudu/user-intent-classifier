@@ -1,0 +1,12 @@
+{
+  "train": {
+    "questions": 162,
+    "annotation_source": "data\\splits\\train.csv.before_subtitles.bak",
+    "recovered": true
+  },
+  "validation": {
+    "questions": 54,
+    "annotation_source": "data\\splits\\validation.csv",
+    "recovered": false
+  }
+}
