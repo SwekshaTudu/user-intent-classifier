@@ -68,9 +68,7 @@ Original local work has been retained rather than deleted.
 
 The template requires code under `src/`, an explanation under `docs/`, exact
 commands in `run.yaml`, and a push to this fork's default branch before the test
-deadline. No pull request is needed. The [AIntropy Grader Bot](https://github.com/apps/aintropy-grader-bot)
-must have access to this repository; ordinary repository access does not establish
-that the app has been installed.
+deadline. No pull request is needed.
 
 Sources: [provided VideoMME sample](https://huggingface.co/datasets/aintropy-ai/video-mme-sample10),
 [upstream MiniLM model card](https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2),
